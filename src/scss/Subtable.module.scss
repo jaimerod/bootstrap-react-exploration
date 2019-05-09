@@ -1,0 +1,10 @@
+@import '../../node_modules/bootstrap/scss/bootstrap-grid.scss';
+
+.subtable {
+  @include make-col-ready();
+
+  h1 {
+    color: white;
+    text-shadow: 0 0 1px black;
+  }
+}

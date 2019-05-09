@@ -1,0 +1,9 @@
+@import '../../node_modules/bootstrap/scss/bootstrap-grid.scss';
+
+.attachment {
+  @include make-col-ready();
+
+  h1 {
+    color: gray;
+  }
+}

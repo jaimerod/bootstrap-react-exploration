@@ -1,0 +1,9 @@
+@import '../../node_modules/bootstrap/scss/bootstrap-grid.scss';
+
+.facility {
+  @include make-col-ready();
+
+  h1 {
+    color: green;
+  }
+}
